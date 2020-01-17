@@ -1,0 +1,7 @@
+name: "strindberg-mod"
+displayName: "[tan]Strindberg Mod™"
+author: "NichtElias"
+description: "The official Strindberg Mod™"
+version: "0.4.0"
+minGameVersion: "101"
+dependencies: []

@@ -1,0 +1,43 @@
+type: GenericSmelter
+name: Strindbergium Smelter
+description: Combines surge alloy, thorium and slag to produce strindbergium.
+
+size: 3
+health: 120
+craftTime: 120
+liquidCapacity: 100
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+solid: true
+destructable: true
+breakable: true
+update: true
+
+requirements: [
+  copper/50
+  lead/40
+  metaglass/10
+  silicon/40
+  titanium/30
+]
+
+consumes: {
+  power: 5
+  items: {
+    items: [
+      surge-alloy/1
+      thorium/1
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.025
+  }
+}
+outputItem: strindbergium/4
+
+research: alloy-smelter
+category: crafting

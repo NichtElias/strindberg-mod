@@ -1,0 +1,6 @@
+type: material
+name: Strindbergium
+description: Rare alloy named after the living legend Thor Strindberg.
+radioactivity: 0.25
+cost: 4
+color: ddbb88

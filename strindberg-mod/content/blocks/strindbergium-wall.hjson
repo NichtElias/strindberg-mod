@@ -1,0 +1,10 @@
+name: Strindbergium Wall
+destription: A wall made of strindbergium.
+type: Wall
+health: 1020
+size: 1
+requirements: [
+  strindbergium/6
+]
+category: defense
+research: surge-wall

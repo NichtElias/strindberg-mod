@@ -1,0 +1,7 @@
+name: Liquid Tritium
+description: A hydrogen isotope used in the Fusion Reactor.
+temperature: 0
+viscosity: 0.4
+effect: freezing
+color: 00aabb
+flammability: 0

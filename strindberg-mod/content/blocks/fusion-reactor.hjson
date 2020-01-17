@@ -1,0 +1,36 @@
+type: ImpactReactor
+name: Fusion Reactor
+description: Uses Nuclear Fusion to generate an insane amount of energy. Requires a jumpstart to heat the plasma.
+
+size: 4
+health: 300
+hasPower: true
+hasItems: true
+hasLiquids: true
+liquidCapacity: 50
+itemDuration: 30
+
+requirements: [
+  titanium/150
+  phase-fabric/40
+  silicon/60
+  strindbergium/40
+  lead/80
+]
+
+consumes: {
+  power: 100
+  items: {
+    items: [
+      tritium-jar/1
+      deuterium-jar/1
+    ]
+  }
+}
+
+warmupSpeed: 0.01
+powerProduction: 600
+explosionRadius: 0
+
+research: impact-reactor
+category: power

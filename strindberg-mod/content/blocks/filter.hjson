@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Filter
+description: Filters scrap out of Water.
+
+size: 2
+health: 100
+craftTime: 60
+liquidCapacity: 100
+
+hasPower: false
+hasItems: true
+hasLiquids: true
+
+solid: true
+destructable: true
+breakable: true
+update: true
+
+requirements: [
+  copper/25
+  lead/20
+  metaglass/15
+]
+
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+outputItem: scrap/1
+
+research: mechanical-pump
+category: crafting

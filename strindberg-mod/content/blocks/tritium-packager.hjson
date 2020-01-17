@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: Tritium Packager
+description: Puts Tritium in jars.
+
+liquidCapacity: 50
+outputItem: tritium-jar/1
+size: 2
+
+hasLiquids: true
+craftTime: 8
+
+consumes: {
+  liquid: {
+    liquid: tritium
+    amount: 1
+  }
+}
+requirements: [
+  copper/70
+  lead/40
+]
+category: crafting
+research: graphite-press

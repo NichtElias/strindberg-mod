@@ -1,0 +1,10 @@
+name: Large Strindbergium Wall
+destription: A large wall made of strindbergium.
+type: Wall
+health: 4080
+size: 2
+requirements: [
+  strindbergium/24
+]
+category: defense
+research: strindbergium-wall

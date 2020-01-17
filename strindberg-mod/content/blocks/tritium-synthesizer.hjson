@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Tritium Synthesizer
+description: Synthesizes Tritium.
+
+liquidCapacity: 50
+outputLiquid: {
+  liquid: tritium
+  amount: 2
+}
+size: 2
+
+hasPower: true
+hasLiquids: true
+craftTime: 30
+
+consumes: {
+  power: 1
+  item: lithium
+}
+requirements: [
+  lead/90
+  titanium/80
+  silicon/50
+]
+category: crafting
+research: plastanium-compressor

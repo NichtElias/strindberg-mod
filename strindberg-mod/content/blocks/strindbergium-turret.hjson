@@ -1,0 +1,35 @@
+type: ItemTurret
+name: Strindbergium Turret
+description: Shoots with strindbergium.
+health: 200
+size: 2
+reload: 2
+shots: 4
+spread: 0
+range: 200
+maxAmmo: 240
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 360
+ammo: {
+  strindbergium: {
+    speed: 3
+    damage: 4
+    bulletWidth: 7
+    bulletHeight: 7
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 120
+    lifetime: 60
+    status: burning
+  }
+}
+requirements: [
+  copper/70
+  lead/60
+  silicon/50
+  titanium/100
+  thorium/20
+]
+category: turret
+research: meltdown
